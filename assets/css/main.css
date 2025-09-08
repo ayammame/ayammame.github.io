@@ -212,9 +212,6 @@ width: 100%;
 }
 
 
-h2.alt {
-			color: #888;
-		}
 
 			h2.alt strong {
 				color: #666;
@@ -307,6 +304,10 @@ h2.alt {
 				
 				
 			}
+			h2.alt {
+			margin-top:70px;
+		}
+
 
 		}
 
@@ -319,6 +320,10 @@ h2.alt {
 								padding-right:10px;
 
 			}
+			h2.alt {
+			margin-top:0px;
+		}
+
 
 		}
 
