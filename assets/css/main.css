@@ -168,11 +168,10 @@ height: 754px;
 	h1 {
 		padding: 10px 0 5px 0;
     text-align: left;
-	font-weight:500;
 			font-size:1.5em;
   font-weight: 700;
   /* 背景グラデ */
-  background: linear-gradient(90deg, #4affa8, #fffc00, #d82f86);
+  background: linear-gradient(90deg, #50fffe, #f3e6a5, #ebb7c8, #b0a0ff);
   /* テキストに背景を切り取る */
   -webkit-background-clip: text; /* Chrome/Safari/Edge */
   background-clip: text;         /* 一部ブラウザで有効 */
@@ -181,6 +180,24 @@ height: 754px;
   
 
 	}
+	
+	
+	.grad {
+		padding: 10px 0 5px 0;
+    text-align: left;
+	font-weight:700;
+			font-size:1em;
+  /* 背景グラデ */
+  background: linear-gradient(90deg, #fffd38, #e9400c, #e801ba);
+  /* テキストに背景を切り取る */
+  -webkit-background-clip: text; /* Chrome/Safari/Edge */
+  background-clip: text;         /* 一部ブラウザで有効 */
+  /* テキスト自体の塗りを透明にする */
+  -webkit-text-fill-color: transparent; /* 必須（WebKit系） */
+  
+
+	}
+
 	h2 {
 		font-size: 2.3em;
   font-weight: 700;
@@ -229,7 +246,7 @@ width: 100%;
 
 	h8 {
     font-size: 1em;
-    margin-top: 0px;
+    margin-top: -20px;
 	font-weight:400;
 	
 	}
@@ -1373,6 +1390,17 @@ line-height:1.2em;
 		}
 			
 		@media screen and (max-width: 960px) {
+			
+			.leftbox > .col-12{
+				width:100%;
+				text-align:left;
+				font-size: 16px;
+						line-height:1.4em;
+				
+		}
+
+
+
 		.leftbox > .col-7 {
 			width: 25%;
 							display: flex;
@@ -1632,6 +1660,15 @@ line-height:1.2em;
 		}
 
 		@media screen and (max-width: 736px) {
+			.leftbox > .col-12{
+				width: 100%;
+				text-align:left;
+				font-size: 16px;
+						line-height:1.4em;
+				
+		}
+
+
     h1 {
     font-size: 1em;
     margin-top: -17px;
@@ -1653,7 +1690,6 @@ h8{
     font-size: 1.2em;
     margin-top: 0px;
     font-weight: 400;
-    padding-top: 2em;
     text-align: left;		}
 	
 					.row {
@@ -2431,7 +2467,7 @@ margin-top: 0.5em;}
 				background-position: center center;
 			}
 			#main > section.one {
-		background: #352f39 url(../../images/banner.jpg);;
+		background: #081122 url(../../images/banner.jpg);;
 				background-repeat:no-repeat;
 				background-size: 100%; /* 幅50%、高さ50% */
 				background-position: center 0px; 
