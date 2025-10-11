@@ -33,9 +33,6 @@ body {
 	line-height: 1;
 }
 
-header {
-	padding-bottom:20px;
-}
 .mini {
 	font-size:0.8em;
 }
@@ -427,6 +424,9 @@ width: 100%;
 
 .leftbox > .col-7{
 				width: 16%;
+		}
+.leftbox > .col-18{
+				width: 67%;
 		}
 
 .leftbox > .col-11{
@@ -1714,6 +1714,12 @@ h8{
 											width: 97%;
 
 						}
+						.leftbox > .col-18 img{
+											width: 97%;
+
+						}
+
+
 				.row > * {
 					box-sizing: border-box;
 				}
