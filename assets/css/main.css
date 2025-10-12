@@ -2479,13 +2479,15 @@ margin-top: 0.5em;}
 				background-size: 100%; /* 幅50%、高さ50% */
 				background-position: center 0px; 
 				padding-bottom: 40px;
+				color:white;
+				padding-top: 46px;	
+				padding-left: 30px;	
 			}
 
-			#main > section.one {
-				color:white;
-padding-top: 46px;			}
+			
 			#main > section.two {
 				background-color: #f5fafa;
+				padding-left: 30px;
 			}
 
 			#main > section.three {
@@ -3359,4 +3361,5 @@ height: 949px
 
 
 		}
+
 
