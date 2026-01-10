@@ -163,19 +163,8 @@ height: 754px;
 			color: #333;
 		}
 	h1 {
-		padding: 10px 0 5px 0;
-    text-align: left;
-			font-size:1.5em;
-  font-weight: 700;
-  /* 背景グラデ */
-  background: linear-gradient(90deg, #50fffe, #f3e6a5, #ebb7c8, #b0a0ff);
-  /* テキストに背景を切り取る */
-  -webkit-background-clip: text; /* Chrome/Safari/Edge */
-  background-clip: text;         /* 一部ブラウザで有効 */
-  /* テキスト自体の塗りを透明にする */
-  -webkit-text-fill-color: transparent; /* 必須（WebKit系） */
-  
 
+			font-size:0.7em;
 	}
 	
 	
@@ -196,17 +185,14 @@ height: 754px;
 	}
 
 	h2 {
-		font-size: 2.3em;
-  font-weight: 700;
-  /* 背景グラデ */
-  background: linear-gradient(90deg, #455ca3, #511b5a);
+    font-size: 1em;
+    margin-top: 60px;
+  background: linear-gradient(90deg, #59baab, #6e6cc3);
   /* テキストに背景を切り取る */
   -webkit-background-clip: text; /* Chrome/Safari/Edge */
   background-clip: text;         /* 一部ブラウザで有効 */
   /* テキスト自体の塗りを透明にする */
   -webkit-text-fill-color: transparent; /* 必須（WebKit系） */
-  
-  
 	}
 	h3 {
     font-size: 1.2em;
@@ -228,8 +214,17 @@ width: 100%;
 			}
 
 	h6 {
-    font-size: 1em;
-    margin-top: 60px;
+				font-size: 2.3em;
+  font-weight: 700;
+  /* 背景グラデ */
+  background: linear-gradient(90deg, #455ca3, #511b5a);
+  /* テキストに背景を切り取る */
+  -webkit-background-clip: text; /* Chrome/Safari/Edge */
+  background-clip: text;         /* 一部ブラウザで有効 */
+  /* テキスト自体の塗りを透明にする */
+  -webkit-text-fill-color: transparent; /* 必須（WebKit系） */
+  
+
 	}
 
 
@@ -273,7 +268,18 @@ width: 100%;
 
 
 		header > p {
-			font-size:0.7em;
+					padding: 10px 0 5px 0;
+			font-size:1.5em;
+  font-weight: 700;
+  /* 背景グラデ */
+  background: linear-gradient(90deg, #50fffe, #f3e6a5, #ebb7c8, #b0a0ff);
+  /* テキストに背景を切り取る */
+  -webkit-background-clip: text; /* Chrome/Safari/Edge */
+  background-clip: text;         /* 一部ブラウザで有効 */
+  /* テキスト自体の塗りを透明にする */
+  -webkit-text-fill-color: transparent; /* 必須（WebKit系） */
+  
+
 					}
 
 	footer {
@@ -2459,7 +2465,6 @@ margin-top: 0.5em;}
 			overflow: hidden;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			text-align: center;
-			padding-left: 15px;
 		}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -2480,15 +2485,13 @@ margin-top: 0.5em;}
 				background-size: 100%; /* 幅50%、高さ50% */
 				background-position: center 0px; 
 				padding-bottom: 40px;
-				color:white;
-				padding-top: 46px;	
-				padding-left: 30px;	
 			}
 
-			
+			#main > section.one {
+				color:white;
+padding-top: 46px;			}
 			#main > section.two {
 				background-color: #f5fafa;
-				padding-left: 30px;
 			}
 
 			#main > section.three {
@@ -3362,6 +3365,4 @@ height: 949px
 
 
 		}
-
-
 
