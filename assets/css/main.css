@@ -1677,20 +1677,7 @@ line-height:1.2em;
 
 
     h1 {
-    font-size: 1em;
-    margin-top: -17px;
-    color: black;
-    line-height: 1.3em;
-    padding: 0;
-  font-weight: 700;
-  /* 背景グラデ */
-  background: linear-gradient(90deg, #ffd166, #4ecdc4);
-  /* テキストに背景を切り取る */
-  -webkit-background-clip: text; /* Chrome/Safari/Edge */
-  background-clip: text;         /* 一部ブラウザで有効 */
-  /* テキスト自体の塗りを透明にする */
-  -webkit-text-fill-color: transparent; /* 必須（WebKit系） */
-  
+    font-size: 0.7em;
 }
 
 h8{
