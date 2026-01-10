@@ -185,6 +185,7 @@ height: 754px;
 	}
 
 	h2 {
+		font-weight: 600;
     font-size: 1em;
     margin-top: 60px;
   background: linear-gradient(90deg, #59baab, #6e6cc3);
@@ -3352,4 +3353,5 @@ height: 949px
 
 
 		}
+
 
