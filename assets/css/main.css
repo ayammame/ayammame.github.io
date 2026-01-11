@@ -101,7 +101,8 @@ iframe {width:100%;
 height: 754px;
   margin-top: -34px;
 }
-			.leftbox {
+
+.leftbox {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
@@ -110,8 +111,12 @@ height: 754px;
 	padding-bottom: 12px;
 			}
 
+.leftbox img {
+	width:80%;
+	
+}
 
-		 .col-12 {
+.col-12 {
 			width: 100%;
 			overflow:hidden;
 
@@ -185,8 +190,8 @@ height: 754px;
 	}
 
 	h2 {
-		font-weight: 600;
     font-size: 1em;
+	font-weight:600;
     margin-top: 60px;
   background: linear-gradient(90deg, #59baab, #6e6cc3);
   /* テキストに背景を切り取る */
@@ -215,7 +220,7 @@ width: 100%;
 			}
 
 	h6 {
-				font-size: 2.3em;
+				font-size: 1.6em;
   font-weight: 700;
   /* 背景グラデ */
   background: linear-gradient(90deg, #455ca3, #511b5a);
@@ -3353,5 +3358,4 @@ height: 949px
 
 
 		}
-
 
