@@ -98,7 +98,7 @@ input, select, textarea {
 
 
 iframe {width:100%;
-height: 754px;
+height: 954px;
   margin-top: -34px;
 }
 
@@ -193,7 +193,7 @@ height: 754px;
     font-size: 1em;
 	font-weight:600;
     margin-top: 60px;
-  background: linear-gradient(90deg, #59baab, #6e6cc3);
+  background: linear-gradient(90deg, #bcede4, #5decd2);
   /* テキストに背景を切り取る */
   -webkit-background-clip: text; /* Chrome/Safari/Edge */
   background-clip: text;         /* 一部ブラウザで有効 */
@@ -2815,9 +2815,23 @@ padding-top: 46px;			}
 			}
 
 			h2 {
-    font-size: 2.3em;
+    font-size: 1.2em;
     letter-spacing: 0;
-    font-weight: 600;			}
+    font-weight: 600;		
+		}
+		
+		
+					h2.alt {
+			position: relative;
+			display: block;
+			font-size: 0.6em;
+			color: #fff !important;
+			line-height: 1.25em;
+			margin: 0.5em 0 0 0;
+
+		}
+
+
 
 		/* List */
 
@@ -3293,7 +3307,7 @@ overflow-x: hidden;
         max-width: 100%;
     }
 	iframe {width:100%;
-height: 949px
+height: 1039px
 ;margin-top: -40px;
 }
 .modal-2__close-label {
@@ -3328,23 +3342,19 @@ height: 949px
 				
 			}
 			h2.alt {
-    margin-top: 34px;
-    letter-spacing: 0.1em;
-	font-weight:500;
-			}
+			position: relative;
+			display: block;
+			font-size: 0.6em;
+			color: #fff;
+			line-height: 1.25em;
+			margin: 0.5em 0 0 0;
+		}
 			
 
 		}
 
 		@media screen and (max-width: 1030px) {
 
-			.hide {
-				text-align:right;
-								background-color:#263446;
-								color:white;
-								padding-right:10px;
-
-			}
 			h2.alt {
 			margin-top:0px;
 		}
